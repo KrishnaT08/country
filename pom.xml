@@ -15,8 +15,8 @@
 	<packaging>jar</packaging>
 	<version>0.1.0-SNAPSHOT</version>
 
-	<groupId>fedex.cxs</groupId>
-	<artifactId>fedex.cxs.countrycxs</artifactId>
+	<groupId>sample.cxs</groupId>
+	<artifactId>countrycxs</artifactId>
 
 	<properties>
 		<appengine.maven.plugin.version>1.3.2</appengine.maven.plugin.version>
