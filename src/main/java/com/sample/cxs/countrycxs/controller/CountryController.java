@@ -20,7 +20,7 @@ import com.sample.cxs.countrycxs.vo.Country;
  *
  */
 @RestController
-@RequestMapping(value = "/countries/v3")
+@RequestMapping(value = "/country/v3")
 public class CountryController {
 
 	private static final Logger logger = LoggerFactory.getLogger(CountryController.class);
@@ -28,7 +28,7 @@ public class CountryController {
 	@Autowired
 	private GetCountryService getCountryService;
 
-	@GetMapping("/")
+	@GetMapping("/countries")
 	public List<Country> countries() {
 		return getCountryService.getAllCountries();
 	}
