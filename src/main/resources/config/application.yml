@@ -1,0 +1,41 @@
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration will be overriden by the Spring profile you use,
+# for example application-dev.yml if you use the "dev" profile.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+server:
+    port: 8080
+    
+
+spring:
+    jackson:
+        default-property-inclusion: NON_NULL
+    mvc:
+        date-format: MM-dd-yyyy'T'HH:mm:ss
+
+security:
+    basic:
+        enabled: false
+ 
+management:
+   context-path: /_ah
+   security:
+    enabled: false
+             
+endpoints:
+    refresh:
+        id: refresh
+        sensitive: false
+        enabled: true
+    health:
+        sensitive: false
+
+
