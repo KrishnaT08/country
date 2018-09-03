@@ -1,4 +1,4 @@
-package com.fedex.cxs.countrycxs.util;
+package com.sample.cxs.countrycxs.util;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.fedex.cxs.countrycxs.controller;
+package com.sample.cxs.countrycxs.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fedex.cxs.countrycxs.service.GetCountryService;
-import com.fedex.cxs.countrycxs.vo.Country;
+import com.sample.cxs.countrycxs.service.GetCountryService;
+import com.sample.cxs.countrycxs.vo.Country;
 
 /**
  * @author KrishnaPC

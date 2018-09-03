@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.fedex.cxs.countrycxs;
+package com.sample.cxs.countrycxs;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -17,7 +17,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.env.Environment;
 
-import com.fedex.cxs.countrycxs.util.DefaultProfileUtil;
+import com.sample.cxs.countrycxs.util.DefaultProfileUtil;
 
 /**
  * @author KrishnaPC

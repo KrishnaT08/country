@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.fedex.cxs.countrycxs.service;
+package com.sample.cxs.countrycxs.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.fedex.cxs.countrycxs.vo.Country;
+import com.sample.cxs.countrycxs.vo.Country;
 
 /**
  * @author KrishnaPC

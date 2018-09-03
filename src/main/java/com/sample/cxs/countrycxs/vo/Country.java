@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.fedex.cxs.countrycxs.vo;
+package com.sample.cxs.countrycxs.vo;
 
 import java.io.Serializable;
 
